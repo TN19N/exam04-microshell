@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   microshell.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mannouao <mannouao@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/03/07 16:25:10 by mannouao          #+#    #+#             */
+/*   Updated: 2022/03/07 20:19:59 by mannouao         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
@@ -313,6 +325,8 @@ int main(int ac, char **av, char **env)
 	}
 	return (EXIT_SUCCESS);
 }
+// max opened file descriptors is 5 ((0 . 1 . 2) for in-out-err (3 . 4 . 5) for pipes ends)
+
 // dont forget we accept /bin/ls not ls we dont work with PATH env ver :)
 
 //exam finish easy
