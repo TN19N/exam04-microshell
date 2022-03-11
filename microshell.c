@@ -331,4 +331,6 @@ int main(int ac, char **av, char **env)
 
 //exam finish easy
 
+// rdo lbal hadi /bin/ls ";" ";" ";" /bin/ls khs tkon bhal zsh mach bash
+
 // RIP ⚰️ ENGLISH :(
